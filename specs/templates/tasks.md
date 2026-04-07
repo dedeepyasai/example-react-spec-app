@@ -1,0 +1,6 @@
+- [ ] Create spec.md
+- [ ] Create plan.md
+- [ ] Implement feature code
+- [ ] Add tests
+- [ ] Create pr-spec.md
+- [ ] Produce test-report.md
