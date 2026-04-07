@@ -1,0 +1,11 @@
+.ft-root{padding:20px;max-width:900px;margin:0 auto}
+.ft-header h1{margin:0 0 12px;font-size:1.5rem}
+.ft-form{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
+.ft-input,.ft-textarea{padding:8px;border:1px solid #d9d9d9;border-radius:4px;font-size:0.95rem}
+.ft-textarea{min-height:80px}
+.ft-actions{text-align:right}
+.ft-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.ft-card{padding:12px;border:1px solid #e1e6ef;border-radius:6px;background:#fff}
+.ft-card-title{margin:0 0 6px}
+.ft-card-desc{margin:0 0 8px;color:#333}
+.ft-card-time{color:#666;font-size:0.85rem}

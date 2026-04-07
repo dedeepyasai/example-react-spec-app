@@ -1,0 +1,4 @@
+# Update these placeholders to real GitHub usernames for your team
+/src/ @team-lead @dev-team
+/specs/ @product-owner
+/docs/ @tech-writers
