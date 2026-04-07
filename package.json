@@ -8,6 +8,7 @@
     "test": "react-scripts test --env=jsdom",
     "test:ci": "react-scripts test --watchAll=false --coverage",
     "lint": "eslint \"src/**/*.{js,jsx}\" --max-warnings=0",
+    "create-spec": "node scripts/createSpec.js",
     "eject": "react-scripts eject"
   },
   "dependencies": {
