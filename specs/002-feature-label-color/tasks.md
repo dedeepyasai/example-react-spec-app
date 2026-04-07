@@ -1,0 +1,6 @@
+- [ ] Create `spec.md`, `plan.md`, `pr-spec.md`, `test-report.md`
+- [ ] Implement `Label Color` picker in `AddFeatureForm.jsx`
+- [ ] Render color label rectangle in `FeatureCard.jsx`
+- [ ] Add/update unit tests to cover label color rendering
+- [ ] Update docs: `docs/testing.md`, `specs/002-feature-label-color/test-report.md` with artifact placeholders
+- [ ] Commit changes on branch `feature/PROJ-102-feature-label-color` and open PR linking `PROJ-102`

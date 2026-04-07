@@ -1,6 +1,8 @@
-- [ ] Fork repository and create branch `feature/PROJ-101-feature-request-tracker`
+- [ ] Fork repository and create branch `feature/PROJ-102-feature-request-tracker`
 - [ ] Add `spec.md`, `plan.md`, `pr-spec.md`, `test-report.md`
 - [ ] Implement components and styles under `src/components/`
+- [ ] Add `Label Color` picker to the form and include `labelColor` in feature objects
+- [ ] Render small color label rectangle at top-right of each `FeatureCard`
 - [ ] Add manual QA steps and update `test-report.md`
 - [ ] Run `npm install` and `npm start` to verify UI
 - [ ] Commit, push, and open PR linking `PROJ-101` and `specs/001-feature-request-tracker/pr-spec.md`
