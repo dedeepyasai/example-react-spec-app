@@ -1,0 +1,17 @@
+name: PR Spec Check
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  require-spec:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Check PR references spec
+        run: node scripts/check_pr_spec.js $GITHUB_EVENT_PATH

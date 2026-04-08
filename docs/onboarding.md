@@ -8,7 +8,8 @@ Quick start:
 4. Run locally: `npm start`
 5. Run tests: `npm test` or CI-style `npm run test:ci`
 
-Process highlights:
+- Process highlights:
 - Create a feature spec under `specs/<NN>-slug/` before coding.
+- Follow the prompt budget & logging guide: `docs/prompt-budget.md` (log LLM calls to `.github/memory-bank/llm-usage.log`).
 - Open a feature branch `feature/PROJ-123-short-desc` and include the JIRA key in commits (`PROJ-123: message`).
 - Open PR with link to `specs/<NN>-slug/pr-spec.md` and ensure CI passes.
