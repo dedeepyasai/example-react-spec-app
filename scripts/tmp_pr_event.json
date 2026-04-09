@@ -1,0 +1,6 @@
+{
+  "pull_request": {
+    "title": "PROJ-101: Implement Feature Request Tracker",
+    "body": "Implements feature request tracker.\n\nRelated:\n- Issue: PROJ-101\n- Spec: specs/001-feature-request-tracker/pr-spec.md"
+  }
+}
