@@ -1,7 +1,7 @@
 /* eslint-env jest */
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
+import '@testing-library/jest-dom';
 import FeatureTracker from '../FeatureTracker';
 
 test('adds a feature and displays it in the list', () => {
